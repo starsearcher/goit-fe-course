@@ -15,16 +15,6 @@
         margin: 0;
     }
     
-    a {
-        text-decoration: none;
-        color: rgb(98, 98, 98);
-        text-align: center;
-    }
-    
-    a.menu-link:hover {
-        color: rgb(3, 169, 244);
-    }
-    
     img {
         display: block;
         max-width: 100%;
@@ -43,7 +33,6 @@
         font-size: 20px;
         font-family: "Playfair Display";
         line-height: 1.2;
-        padding: 22px 32px;
     }
     
     article {
@@ -51,26 +40,35 @@
         width: 421px;
     }
     
+    h2 {
+        margin: 0;
+    }
+    
     h3 {
+        margin: 0;
         font-size: 30px;
         line-height: 1.2;
+        padding-bottom: 42px;
     }
     
     p {
+        margin: 0;
         line-height: 1.7;
     }
     
-    .site-nav {
-        width: 572px;
+    .container {
+        width: 906px;
         margin: 0 auto;
+    }
+    
+    .site-nav {
         padding: 76px 0 104px 0;
         list-style: none;
-        text-transform: uppercase;
-        line-height: 1.7;
         text-align: center;
     }
     
     .site-nav ul {
+        margin: 0;
         padding: 0;
     }
     
@@ -83,10 +81,17 @@
         margin-right: 16%;
     }
     
-    .wrapper {
-        display: block;
-        width: 906px;
+    a.menu-link {
+        text-decoration: none;
+        color: rgb(98, 98, 98);
         margin: 0 auto;
+        text-transform: uppercase;
+        line-height: 1.7;
+        display: block;
+    }
+    
+    a.menu-link:hover {
+        color: rgb(3, 169, 244);
     }
     
     .left,
@@ -98,10 +103,6 @@
     
     .left {
         margin-right: 60px;
-    }
-    
-    .right {
-        vertical-align: top;
     }
     
     .first-row {
@@ -122,4 +123,5 @@
         color: rgb(180, 173, 158);
         text-transform: uppercase;
         line-height: 1.2;
+        margin: 32px 0;
     }
