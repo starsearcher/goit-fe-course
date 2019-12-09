@@ -15,36 +15,23 @@
         margin: 0;
     }
     
+    section {
+        padding-bottom: 58px;
+    }
+    
     img {
         display: block;
         max-width: 100%;
         height: auto;
     }
     
-    button {
-        width: 164px;
-        height: 60px;
-        border: 1px solid rgb(98, 98, 98);
-        color: rgb(98, 98, 98);
-        background-color: rgb(255, 255, 255);
-        text-align: center;
-        display: block;
-        margin: 58px auto;
-        font-size: 20px;
-        font-family: "Playfair Display";
-        line-height: 1.2;
-    }
-    
     article {
         height: 480px;
         width: 421px;
+        margin-bottom: 100px;
     }
     
     h2 {
-        margin: 0;
-    }
-    
-    h3 {
         margin: 0;
         font-size: 30px;
         line-height: 1.2;
@@ -105,23 +92,35 @@
         margin-right: 60px;
     }
     
-    .first-row {
-        margin-bottom: 136px;
-    }
-    
-    .second-row {
-        margin-bottom: 140px;
-    }
-    
-    .third-row {
-        margin-bottom: 56px;
-    }
-    
     .title {
+        margin: 0;
         font-family: "Ubuntu", sans-serif;
         font-size: 14px;
         color: rgb(180, 173, 158);
         text-transform: uppercase;
         line-height: 1.2;
-        margin: 32px 0;
+        padding: 32px 0;
+    }
+    
+    .load-button {
+        margin: 0 auto;
+        width: 164px;
+        height: 60px;
+        border: 1px solid rgb(98, 98, 98);
+        color: rgb(98, 98, 98);
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        display: block;
+        font-size: 20px;
+        font-family: "Playfair Display";
+        line-height: 1.2;
+    }
+    
+    .load-button:hover {
+        border: 2px solid rgb(98, 98, 98);
+        color: rgb(3, 169, 244);
+    }
+    
+    .load-button:focus {
+        outline: none;
     }
