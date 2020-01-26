@@ -192,7 +192,6 @@ a.see-other {
     color: #ff4e50;
     vertical-align: center;
     transition: transform .2s;
-    margin-bottom: 60px;
 }
 
 a.see-other:active,
