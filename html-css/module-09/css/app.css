@@ -108,6 +108,13 @@ a.find-partner:hover {
     text-decoration: none;
 }
 
+.meet-partner {
+    font-family: "Montserrat", Sans-Serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
 .card-img-top {
     padding: 0;
     margin: 0;
