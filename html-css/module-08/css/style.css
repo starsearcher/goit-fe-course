@@ -73,7 +73,7 @@ img {
     color: #ffffff;
     padding: 10px 20px;
     vertical-align: middle;
-    border: 3px hidden #ffffff;
+    border: 3px solid rgba(255, 255, 255, 0);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -168,9 +168,11 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 .sec-title {
+    margin: 0;
     font-family: "Montserrat", Sans-Serif;
     font-weight: 700;
     font-size: 22px;
@@ -184,6 +186,7 @@ img {
     align-items: center;
     justify-content: center;
     list-style: none;
+    padding-top: 20px;
 }
 
 .partner-list-item {
@@ -279,7 +282,6 @@ img {
     color: #ff4e50;
     vertical-align: center;
     transition: transform .2s;
-    margin-bottom: 60px;
 }
 
 .see-other:hover {
@@ -296,7 +298,7 @@ img {
     }
     .header {
         height: 700px;
-        margin: 0;
+        margin: 0 0 70px 0;
     }
     .navigation {
         width: 670px;
@@ -328,7 +330,6 @@ img {
         width: 224px;
     }
     .sec-title {
-        padding-top: 70px;
         margin-bottom: 36px;
     }
     .partner-list {

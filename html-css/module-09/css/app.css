@@ -17,7 +17,7 @@ a.nav-link {
     color: #ffffff;
     padding: 10px 20px;
     vertical-align: middle;
-    border: 3px hidden #ffffff;
+    border: 3px solid rgba(255, 255, 255, 0);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
