@@ -220,8 +220,6 @@ link-item:focus {
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 28px;
-    font-size: 0;
 }
 
 .left-input {
@@ -284,6 +282,26 @@ textarea {
     font-weight: 800;
 }
 
+.left-input input:invalid {
+    outline: 3px solid red;
+}
+
+.left-input input:valid {
+    outline: 3px solid green;
+}
+
+.contact-form input:optional {
+    outline: none;
+}
+
+.contact-form textarea:invalid {
+    outline: 3px solid red;
+}
+
+.contact-form textarea:valid {
+    outline: 3px solid green;
+}
+
 .btn {
     cursor: pointer;
     text-transform: uppercase;
@@ -302,24 +320,4 @@ textarea {
 
 .btn:hover {
     background-color: #c79b0c;
-}
-
-.form-contact input:invalid {
-    outline: 3px solid red;
-}
-
-.form-contact input:valid {
-    outline: 2px solid green;
-}
-
-.form-contact input:optional {
-    outline: none;
-}
-
-.form-contact textarea:invalid {
-    outline: 2px solid red;
-}
-
-.form-contact textarea:valid {
-    outline: 2px solid green;
 }
