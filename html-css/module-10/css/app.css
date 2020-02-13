@@ -154,6 +154,11 @@ html {
     height: 18px;
 }
 
+.assist__link svg {
+    width: 18px;
+    height: 18px;
+}
+
 .website-title {
     margin: 0;
     font-family: 'Kaushan Script', cursive;
@@ -407,6 +412,10 @@ html {
     display: block;
     width: 56px;
     height: 56px;
+}
+
+.social-panel-item__icon:hover {
+    fill: rgb(255, 255, 255);
 }
 
 .team-item__title,
