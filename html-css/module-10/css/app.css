@@ -263,27 +263,27 @@ html {
     font-size: 0;
 }
 
-.services-item_alarm {
+.services-item--alarm {
     background-image: url(../img/icons/icon-alarm.svg);
 }
 
-.services-item_graph {
+.services-item--graph {
     background-image: url(../img/icons/icon-graph.svg);
 }
 
-.services-item_pc {
+.services-item--pc {
     background-image: url(../img/icons/icon-pc.svg);
 }
 
-.services-item_book {
+.services-item--book {
     background-image: url(../img/icons/icon-book.svg);
 }
 
-.services-item_home {
+.services-item--home {
     background-image: url(../img/icons/icon-home.svg);
 }
 
-.services-item_frame {
+.services-item--frame {
     background-image: url(../img/icons/icon-frame.svg);
 }
 
@@ -498,7 +498,7 @@ html {
     padding: 0;
 }
 
-.subscribe-form__field_email {
+.subscribe-form__field--email {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -516,7 +516,7 @@ html {
     cursor: pointer;
 }
 
-.subscribe-form__field_submit {
+.subscribe-form__field--submit {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -538,6 +538,6 @@ html {
     cursor: pointer;
 }
 
-.subscribe-form__field_submit:hover {
+.subscribe-form__field--submit:hover {
     background-color: rgb(243, 129, 129);
 }
