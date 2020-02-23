@@ -16,6 +16,7 @@
 }
 
 .team {
+    @extend %p-reset;
     list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -26,22 +27,25 @@
 }
 
 .team-item {
-    &:hover {
+    &__overlay-box {
+        margin-bottom: 30px;
+        position: relative;
+        width: 100%;
+        -webkit-transition: linear 200ms;
+        -o-transition: linear 200ms;
+        transition: linear 200ms;
+        font-size: 0;
+    }
+    &:hover .team-item__overlay-box {
         -webkit-transform: translate(-10px, -10px);
         -ms-transform: translate(-10px, -10px);
         transform: translate(-10px, -10px);
         -webkit-box-shadow: 10px 10px 0 $seagreen-color;
         box-shadow: 10px 10px 0 $seagreen-color;
         opacity: 1;
-        &__overlay-box {
-            margin-bottom: 30px;
-            position: relative;
-            width: 100%;
-            -webkit-transition: linear 200ms;
-            -o-transition: linear 200ms;
-            transition: linear 200ms;
-            font-size: 0;
-        }
+    }
+    &:hover .social-panel {
+        opacity: 1;
     }
 }
 
