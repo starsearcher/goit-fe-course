@@ -1,0 +1,40 @@
+.header {
+    min-height: 1000px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.9)), to(rgba(243, 129, 129, 0.9))), url(../img/background.png);
+    background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url(../img/background.png);
+    background-image: linear-gradient(0deg, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(-o-min-device-pixel-ratio: 2/1),
+(min-resolution: 192dpi) {
+    .header {
+        background: url("../img/background@2x.png") no-repeat;
+    }
+}
+
+.website-title {
+    margin: 0;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    color: $white-color;
+    text-align: center;
+    line-height: 1.2;
+    padding-top: 162px;
+}
+
+.website-description {
+    margin: 0 0 125px 0;
+    font-family: $montserrat;
+    font-size: 150px;
+    color: $white-color;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.9;
+    padding-top: 40px;
+    text-align: center;
+}

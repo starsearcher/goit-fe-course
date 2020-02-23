@@ -1,0 +1,63 @@
+.subscribe-form {
+    font-size: 0;
+    @extend %m-reset;
+    @extend %p-reset;
+    height: 40px;
+    width: 380px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.subscribe-form__field {
+    @extend %m-reset;
+    @extend %p-reset;
+}
+
+.subscribe-form__field_email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    @extend %m-reset;
+    @extend %p-reset;
+    width: 230px;
+    border: 1px solid $light-gray-color;
+    padding-left: 12px;
+    font-family: $roboto;
+    color: $light-gray-color;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.subscribe-form__field_submit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    @extend %m-reset;
+    @extend %p-reset;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 150px;
+    border: none;
+    outline: none;
+    background-color: $seagreen-color;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: $montserrat;
+    font-weight: 700;
+    color: $white-color;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+        background-color: $peach-color;
+    }
+}

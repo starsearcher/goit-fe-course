@@ -1,0 +1,34 @@
+.footer-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 70px;
+    border-top: 1px solid $light-gray-color;
+}
+
+.copyright {
+    margin: 0;
+    font-size: 14px;
+    font-family: $montserrat;
+    color: $dark-color;
+    line-height: 1.2;
+}
+
+.external-link {
+    text-decoration: none;
+    color: $peach-color;
+    &:hover {
+        color: $peach-color;
+        font-weight: bold;
+    }
+    &:focus {
+        color: $peach-color;
+        font-weight: bold;
+    }
+}

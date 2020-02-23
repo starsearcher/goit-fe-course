@@ -1,0 +1,31 @@
+.assist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 80px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    @extend %m-reset;
+    @extend %p-reset;
+}
+
+.assist__item {
+    list-style: none;
+    position: relative;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.assist__link {
+    display: block;
+    fill: $white-color;
+    width: 18px;
+    height: 18px;
+}
+
+.assist__link svg {
+    width: 18px;
+    height: 18px;
+}

@@ -1,0 +1,64 @@
+.services-section {
+    @extend %m-reset;
+    padding-top: 130px;
+}
+
+.services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
+    @extend %p-reset;
+}
+
+.services-item {
+    position: relative;
+    width: 350px;
+    background-repeat: no-repeat;
+    list-style: none;
+    padding-left: 62px;
+    font-family: $montserrat;
+    font-size: 0;
+    &_alarm {
+        background-image: url(../img/icons/icon-alarm.svg);
+    }
+    &_graph {
+        background-image: url(../img/icons/icon-graph.svg);
+    }
+    &_pc {
+        background-image: url(../img/icons/icon-pc.svg);
+    }
+    &_book {
+        background-image: url(../img/icons/icon-book.svg);
+    }
+    &_home {
+        background-image: url(../img/icons/icon-home.svg);
+    }
+    &_frame {
+        background-image: url(../img/icons/icon-frame.svg);
+    }
+    &:not(:nth-child(n + 3)) {
+        margin-bottom: 100px;
+    }
+}
+
+.services-item__title {
+    font-size: 14px;
+    font-family: $montserrat;
+    font-weight: 400;
+    @extend %m-reset;
+    margin-bottom: 20px;
+    color: $dark-color;
+    line-height: 1.2;
+}
+
+.services-item__description {
+    font-family: $roboto;
+    font-size: 15px;
+    line-height: 1.6;
+    color: $light-gray-color;
+}
